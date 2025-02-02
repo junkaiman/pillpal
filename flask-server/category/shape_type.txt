@@ -1,0 +1,18 @@
+value,shape
+5,Capsule/Oblong
+6,Character-shape
+9,Egg-shape
+10,Eight-sided
+11,Oval
+12,Figure eight-shape
+13,Five-sided
+14,Four-sided
+15,Gear-shape
+16,Heart-shape
+18,Kidney-shape
+23,Rectangle
+24,Round
+25,Seven-sided
+27,Six-sided
+32,Three-sided
+33,U-shape

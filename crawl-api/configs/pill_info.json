@@ -1,0 +1,47 @@
+{
+    "description": "Pill with imprint9 3 5510is Yellow, Round and has been identified as Mercaptopurine 50 mg. It is supplied by Teva Pharmaceuticals USA. Mercaptopurine is used in the treatment ofAcute Lymphoblastic Leukemiaand belongs to the drug classantimetabolites. There is positive evidence of human fetal risk during pregnancy. Mercaptopurine 50 mg is not a controlled substance under the Controlled Substances Act (CSA).",
+    "interactions": {
+        "major interactions": [
+            "Humira (adalimumab)",
+            "Remicade (infliximab)"
+        ],
+        "moderate interactions": [
+            "Apriso (mesalamine)",
+            "Asacol (mesalamine)",
+            "Lialda (mesalamine)",
+            "Pentasa (mesalamine)"
+        ]
+    },
+    "sideEffects": {
+        "More common side effects": [
+            "black, tarry stools",
+            "bleeding gums",
+            "clay colored stools",
+            "cough or hoarseness",
+            "dark urine",
+            "decreased appetite",
+            "fever or chills",
+            "headache",
+            "loss of appetite",
+            "lower back or side pain",
+            "nausea,vomiting",
+            "painful or difficult urination",
+            "pale skin",
+            "pinpoint red spots on the skin",
+            "rash,itchy skin",
+            "stomach pain or tenderness",
+            "swelling of the feet or lower legs",
+            "trouble with breathing upon exertion",
+            "unusual bleeding or bruising",
+            "unusual tiredness or weakness",
+            "yellow eyes or skin"
+        ],
+        "Less common side effects": [
+            "darkening of the skin"
+        ],
+        "Incidence not known": [
+            "hair lossor thinning of the hair",
+            "low sperm count"
+        ]
+    }
+}

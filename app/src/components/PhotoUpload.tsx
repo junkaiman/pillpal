@@ -1,52 +1,83 @@
 "use client";
-import React, { useState } from "react";
+import Image from "next/image";
+import React, { useEffect, useState } from "react";
+import { uploadPhoto } from "@/app/api/utils";
+import { DetailsObj } from "@/lib/utils";
+import Compressor from "compressorjs";
+import Loading from "./Loading";
+import { useToast } from "@/hooks/use-toast";
 
-const PhotoUpload: React.FC = () => {
+interface IPhotoUploadProps {
+  onPhotoUploaded: (res: DetailsObj) => void;
+}
+
+export default function PhotoUpload({ onPhotoUploaded }: IPhotoUploadProps) {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+  const { toast } = useToast();
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (file) {
-      setSelectedFile(file);
-      const reader = new FileReader();
-      reader.onloadend = () => {
-        setPreview(reader.result as string);
-      };
-      reader.readAsDataURL(file);
+      new Compressor(file, {
+        quality: 0.6,
+        maxWidth: 2048,
+        mimeType: "image/jpeg",
+        success(result) {
+          setSelectedFile(result as File);
+          const reader = new FileReader();
+          reader.onloadend = () => {
+            setPreview(reader.result as string);
+          };
+          reader.readAsDataURL(result);
+        },
+      });
     }
   };
 
-  const handleUpload = () => {
+  useEffect(() => {
     if (selectedFile) {
-      // Handle the file upload logic here
-      console.log("File uploaded:", selectedFile);
+      setLoading(true);
+      uploadPhoto(selectedFile)
+        .then((res) => {
+          onPhotoUploaded(res);
+          setLoading(false);
+        })
+        .catch((err) => {
+          setLoading(false);
+          toast({
+            variant: "destructive",
+            title: "Uh oh! We couldn't recognize the pill.",
+            description: "Please try another one. " + err,
+          });
+        });
     }
-  };
+  }, [onPhotoUploaded, selectedFile, toast]);
 
   return (
-    <div className="flex flex-col items-center p-4 border border-gray-300 rounded-lg">
-      <input
-        type="file"
-        accept="image/*"
-        onChange={handleFileChange}
-        className="mb-4"
-      />
+    <div className="flex flex-col items-center justify-center p-4 rounded-lg h-[58vh]">
+      {loading && <Loading spinning={loading} />}
       {preview && (
-        <img
-          src={preview}
-          alt="Preview"
-          className="w-32 h-32 object-cover mb-4"
-        />
+        <Image src={preview} alt="Preview" width={300} height={300} />
       )}
-      <button
-        onClick={handleUpload}
-        className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-      >
-        Upload Photo
-      </button>
+      <>
+        <label htmlFor="upload-photo" className="custom-file-label">
+          <Image
+            src="/camera-icon.png"
+            alt="Camera Icon"
+            width={128}
+            height={128}
+          ></Image>
+        </label>
+        <input
+          type="file"
+          accept="image/*"
+          onChange={handleFileChange}
+          className="hidden"
+          id="upload-photo"
+        />
+      </>
     </div>
   );
-};
-
-export default PhotoUpload;
+}

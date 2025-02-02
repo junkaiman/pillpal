@@ -1,0 +1,14 @@
+{
+    "description": "Generic Name:multivitamin with minerals Pill with imprintCPC 737is Orange / Black, Capsule/Oblong and has been identified as V-C Forte Multiple Vitamins with Minerals. It is supplied by Breckenridge Pharmaceutical, Inc. V-C Forte is used in the treatment ofVitamin/Mineral Supplementation and Deficiencyand belongs to the drug classvitamin and mineral combinations. FDA has not classified the drug for risk during pregnancy. V-C Forte Multiple Vitamins with Minerals is not a controlled substance under the Controlled Substances Act (CSA).",
+    "interactions": {
+        "major interactions": [],
+        "moderate interactions": [
+            "atenolol",
+            "carvedilol",
+            "cholestyramine",
+            "Creon (pancrelipase)",
+            "levothyroxine"
+        ]
+    },
+    "sideEffects": {}
+}
