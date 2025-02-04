@@ -1,5 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 datathlon
+.venv
+
+# Python files
+*.pyc
+__pycache__/
 
 # dependencies
 /node_modules

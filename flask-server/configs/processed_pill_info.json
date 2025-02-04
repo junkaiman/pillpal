@@ -1,14 +1,70 @@
 {
-    "description": "**V-C Forte Multiple Vitamins with Minerals (Generic: multivitamin with minerals)**\n\n- **Appearance**: Orange/Black, Capsule/Oblong; Imprint: CPC 737\n- **Manufacturer**: Breckenridge Pharmaceutical, Inc.\n- **Uses**: Treatment of Vitamin/Mineral Supplementation and Deficiency.\n- **Drug Class**: Vitamin and Mineral Combinations.\n- **Pregnancy Category**: Not classified by the FDA for risk during pregnancy.\n- **Controlled Substance Status**: Not a controlled substance under the Controlled Substances Act (CSA).\n- **Moderate Drug Interactions**: Includes atenolol, carvedilol, cholestyramine, Creon (pancrelipase), and levothyroxine.\n- **Major Interactions**: None reported.\n- **Side Effects**: No side effects listed.",
+    "imgUrl": "https://www.drugs.com/images/pills/custom/pill12074-2/alprazolam.jpg",
+    "description": "Alprazolam 0.5 mg, an orange, round pill identified by imprint R 029, is manufactured by Actavis. It is a benzodiazepine used to treat anxiety and panic disorder, classified as a Schedule 4 controlled substance. Pregnancy may pose risks to fetuses.\n\nMajor interactions include Norco, while moderate interactions involve medications like Ambien and Cymbalta. Common side effects encompass changes in appetite, sexual functions, and menstrual cycles, with less common effects including skin irritation and double vision. Rare side effects can involve severe skin reactions and visual disturbances.",
     "interactions": {
-        "major interactions": {},
-        "moderate interactions": {
-            "atenolol": "Atenolol is a medicine that helps lower blood pressure and improve heart function. It works by relaxing blood vessels and slowing the heart rate, which can help reduce the risk of heart problems. It\u2019s important to take it as your doctor prescribed and not stop suddenly without talking to them. Watch for any unusual side effects and let your doctor know if you have concerns.",
-            "carvedilol": "Carvedilol is a medicine that helps your heart work better. It can lower blood pressure and improve heart function, which is especially important if you have heart problems. You might take it twice a day with food. Some common side effects include feeling tired or dizzy, so it's important to get up slowly. Always follow your doctor's instructions and let them know if you have any concerns.",
-            "cholestyramine": "Cholestyramine is a medication that helps lower cholesterol levels in your blood. It works by binding to bile acids in your intestines, helping to remove them from your body. This can improve your heart health and lower the risk of heart disease. You may take it as a powder mixed with water. It's important to follow your doctor's instructions and discuss any side effects or concerns you may have.",
-            "Creon (pancrelipase)": "Creon is a medicine that helps your body digest food better, especially fats. It contains enzymes that your pancreas might not make enough of. Taking it with meals can help improve your digestion, making it easier to get nutrients from what you eat. Always follow your doctor\u2019s instructions on how to take it.",
-            "levothyroxine": "Levothyroxine is a medication that helps replace or provide more thyroid hormone in your body. It\u2019s used to treat low thyroid levels, which can cause tiredness, weight gain, and other health issues. Taking this medication daily can help you feel more energetic and improve your overall well-being. Make sure to take it on an empty stomach, usually in the morning, and follow your doctor\u2019s advice about the right dose for you."
+        "major interactions": {
+            "Norco (acetaminophen / hydrocodone)": "Norco is a pain relief medicine that combines acetaminophen and hydrocodone."
         }
     },
-    "sideEffects": {}
+    "sideEffects": {
+        "More common side effects": [
+            "absent, missed, or irregular menstrual periods",
+            "decreased appetite",
+            "decreased interest in sexual intercourse",
+            "decreased sexual performance or desire abnormal ejaculation",
+            "difficulty having a bowel movement (stool)",
+            "inability to have or keep an erection",
+            "increased appetite",
+            "increased in sexual ability, desire, drive, or performance",
+            "increased interest in sexual intercourse",
+            "increased weight",
+            "loss in sexual ability, desire, drive, or performance",
+            "stopping of menstrual bleeding",
+            "watering of mouth",
+            "weight loss"
+        ],
+        "Less common side effects": [
+            "abdominal bloating and cramping",
+            "blistering, crusting, irritation, itching, or reddening of the skin",
+            "change in taste bad unusual or unpleasant (after) taste",
+            "cracked, dry, or scaly skin",
+            "cramps",
+            "double vision",
+            "feeling of warmth",
+            "heavy bleeding",
+            "menstrual changes",
+            "pain",
+            "pelvic pain",
+            "redness of the face, neck, arms, and occasionally, upper chest",
+            "seeing double",
+            "sudden sweating",
+            "unexplained runny nose or sneezing"
+        ],
+        "Rare side effects": [
+            "acid or sour stomach",
+            "belching",
+            "bigger, dilated, or enlarged pupils (black part of eye)",
+            "change in color vision",
+            "difficulty seeing at night",
+            "feeling of constant movement of self or surroundings",
+            "feeling of relaxation",
+            "heartburn",
+            "hives or welts",
+            "increased sensitivity of eyes to sunlight",
+            "indigestion",
+            "redness of skin",
+            "runny nose",
+            "sensation of spinning",
+            "stomach discomfort, upset, or pain",
+            "stuffy nose"
+        ],
+        "Incidence not known": [
+            "blistering, peeling, or loosening of the skin",
+            "red, irritated eyes",
+            "red skin lesions, often with a purple center",
+            "sores, ulcers, or white spots in the mouth or on the lips",
+            "swelling of the breasts or breast soreness in both females and males",
+            "unexpected or excess milk flow from breasts"
+        ]
+    }
 }

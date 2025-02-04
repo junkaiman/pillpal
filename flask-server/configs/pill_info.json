@@ -1,14 +1,81 @@
 {
-    "description": "Generic Name:multivitamin with minerals Pill with imprintCPC 737is Orange / Black, Capsule/Oblong and has been identified as V-C Forte Multiple Vitamins with Minerals. It is supplied by Breckenridge Pharmaceutical, Inc. V-C Forte is used in the treatment ofVitamin/Mineral Supplementation and Deficiencyand belongs to the drug classvitamin and mineral combinations. FDA has not classified the drug for risk during pregnancy. V-C Forte Multiple Vitamins with Minerals is not a controlled substance under the Controlled Substances Act (CSA).",
+    "imgUrl": "https://www.drugs.com/images/pills/custom/pill12074-2/alprazolam.jpg",
+    "description": "Pill with imprintR 029is Orange, Round and has been identified as Alprazolam 0.5 mg. It is supplied by Actavis. Alprazolam is used in the treatment ofAnxiety;Panic Disorderand belongs to the drug classbenzodiazepines. There is positive evidence of human fetal risk during pregnancy. Alprazolam 0.5 mg is classified as aSchedule 4 controlled substanceunder the Controlled Substance Act (CSA).",
     "interactions": {
-        "major interactions": [],
+        "major interactions": [
+            "Norco (acetaminophen / hydrocodone)"
+        ],
         "moderate interactions": [
-            "atenolol",
-            "carvedilol",
-            "cholestyramine",
-            "Creon (pancrelipase)",
-            "levothyroxine"
+            "Ambien (zolpidem)",
+            "Benadryl (diphenhydramine)",
+            "Cymbalta (duloxetine)",
+            "Lexapro (escitalopram)",
+            "Lyrica (pregabalin)",
+            "Metoprolol Succinate ER (metoprolol)",
+            "Metoprolol Tartrate (metoprolol)",
+            "Seroquel (quetiapine)",
+            "Zyrtec (cetirizine)"
         ]
     },
-    "sideEffects": {}
+    "sideEffects": {
+        "More common side effects": [
+            "absent, missed, or irregular menstrual periods",
+            "decreased appetite",
+            "decreased interest in sexual intercourse",
+            "decreased sexual performance or desire abnormal ejaculation",
+            "difficulty having a bowel movement (stool)",
+            "inability to have or keep an erection",
+            "increased appetite",
+            "increased in sexual ability, desire, drive, or performance",
+            "increased interest in sexual intercourse",
+            "increased weight",
+            "loss in sexual ability, desire, drive, or performance",
+            "stopping of menstrual bleeding",
+            "watering of mouth",
+            "weight loss"
+        ],
+        "Less common side effects": [
+            "abdominal bloating and cramping",
+            "blistering, crusting, irritation, itching, or reddening of the skin",
+            "change in taste bad unusual or unpleasant (after) taste",
+            "cracked, dry, or scaly skin",
+            "cramps",
+            "double vision",
+            "feeling of warmth",
+            "heavy bleeding",
+            "menstrual changes",
+            "pain",
+            "pelvic pain",
+            "redness of the face, neck, arms, and occasionally, upper chest",
+            "seeing double",
+            "sudden sweating",
+            "unexplained runny nose or sneezing"
+        ],
+        "Rare side effects": [
+            "acid or sour stomach",
+            "belching",
+            "bigger, dilated, or enlarged pupils (black part of eye)",
+            "change in color vision",
+            "difficulty seeing at night",
+            "feeling of constant movement of self or surroundings",
+            "feeling of relaxation",
+            "heartburn",
+            "hives or welts",
+            "increased sensitivity of eyes to sunlight",
+            "indigestion",
+            "redness of skin",
+            "runny nose",
+            "sensation of spinning",
+            "stomach discomfort, upset, or pain",
+            "stuffy nose"
+        ],
+        "Incidence not known": [
+            "blistering, peeling, or loosening of the skin",
+            "red, irritated eyes",
+            "red skin lesions, often with a purple center",
+            "sores, ulcers, or white spots in the mouth or on the lips",
+            "swelling of the breasts or breast soreness in both females and males",
+            "unexpected or excess milk flow from breasts"
+        ]
+    }
 }
