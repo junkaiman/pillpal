@@ -67,7 +67,7 @@ def test_pill_analysis(image_path, api_url='http://127.0.0.1:5001/analyze_pill')
 
 if __name__ == "__main__":
     # Check if image exists
-    image_path = "./pills/Random.png"
+    image_path = "./pills/Alprazolam.png"
     if not os.path.exists(image_path):
         print(f"Error: Image not found at {image_path}")
         print("Please ensure your image exists and the path is correct")
